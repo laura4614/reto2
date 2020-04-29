@@ -1,0 +1,51 @@
+body {
+  font-size: 16px;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../images/bg-intro-desktop.png");
+}
+
+#div-principal{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#div-form{
+background-color: white;
+width: 25%;
+padding: 50px;
+padding-top: 30px;
+border-radius: 8px;
+}
+
+.input100{
+  padding: 3%;
+  margin: 2%;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#boton-enviar{
+  background-color: hsl(154, 59%, 51%);
+  border: 1px solid hsl(154, 59%, 51%));
+  color: white;
+}
+
+#boton-azul{
+  width: 32%;
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid hsl(248, 32%, 49%);
+  border-radius: 5px;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+}
