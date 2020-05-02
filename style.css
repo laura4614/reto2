@@ -1,0 +1,94 @@
+body {
+  font-size: 16px;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../images/bg-intro-desktop.png");
+max-width: 100%;
+
+}
+
+
+
+
+#div-principal{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 100%;
+
+}
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-right: auto;
+  max-width: 100%;
+height: auto;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+main {
+  right: 400px;
+  max-width: 100%;
+  
+}
+
+#div-form{
+background-color: white;
+width: 25%;
+padding: 50px;
+padding-top: 30px;
+border-radius: 8px;
+max-width: 100%;
+
+}
+
+.input100{
+  padding: 3%;
+  margin: 2%;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+
+}
+
+#boton-enviar{
+  background-color: hsl(154, 59%, 51%);
+  border: 1px solid hsl(154, 59%, 51%);
+  color: white;
+}
+
+#boton-azul{
+  width: 32%;
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid hsl(248, 32%, 49%);
+  border-radius: 4px;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  
+}
+.text{
+  margin-top: -20%;
+  color: white;
+  margin-right: 70%;
+ padding: 25px;
+  font-family: 'Poppins', sans-serif;
+max-width: 100%;
+height: auto;
+}
+.div {
+  color: grey;  
+ font-size: 10px;
+ font-family: 'Poppins', sans-serif;
+}
+p {
+  color: hsl(0, 100%, 74%);
+  margin-top:-5px;
+  font-size: 10px;
+  
+}
